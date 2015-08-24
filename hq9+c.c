@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 int main(int argc, char *argv[]) {
-	stdout = NULL;
 	if (access(argv[1], F_OK) != -1 && strlen(argv[2]) > 0) {
 		fprintf(stdout, "Compiling %s\n\n", argv[1]);
 
