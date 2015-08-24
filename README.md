@@ -1,6 +1,7 @@
 ## HQ9+C
 
  * A simple HQ9+ compiler / interpreter for multiple platforms
+ * Developed to run HQ9+ code faster.
  * compiling
 <pre>$ gcc hq9+c.c -o hq9+c -O2</pre>
  * running
